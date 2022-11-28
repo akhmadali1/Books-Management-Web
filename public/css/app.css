@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+}
+.booklist{
+    color: white;
+    background-color: grey;
+    text-align: left;
+    width: 50%;
+    margin-left: 400px;
+}
+.booklist h2{
+    padding-left: 5px;
+    font-weight: lighter;
+}
+.container{
+    position: relative;
+    margin-left: 400px;
+    justify-content: center;
+    align-items: center;
+}
+.container > .card{
+    padding: 3px;
+}
+.container .card{
+    float: left;
+    height: 25%;
+    padding: 5px;
+    border: 1px solid gray;
+}
+.card{
+   max-width: 200px;
+   max-height: 350px;
+}
+.container .card img{
+    width: 178px;
+    height: 250px;
+}
+.container .card a{
+    background-color: blue;
+    color: white;
+    padding: 5px 10px;
+    text-decoration: none;
+    font-size: 10px;
+    margin: 3px;
+    margin-bottom: 50px;
+    text-decoration: none;
+    font-weight: lighter;
+}
+.container .card h5,h6{
+    margin: 5px;
+    margin-left: 5px;
+    text-decoration: none;
+    font-weight: lighter;
+}
+.bookdetail{
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    margin-left: 425px;
+    max-width: 700px;
+}
+.bookdetail img{
+    width: 700px;
+    height: 850px;
+}
+.bookdetail h2,p{
+    font-weight: lighter;
+}
+#portfolio{
+    padding: 20px 0;
+
+}
+
+.container .card1{
+    position: relative;
+    height: 25%;
+    padding: 5px;
+}
+
+.card1 img{
+    width: 178px;
+    height: 350px;
+}
+
